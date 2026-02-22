@@ -14,11 +14,11 @@ Formic acid is made from carbon dioxide (from liquid air distillation) and water
 flowchart LR;
     %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-    A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_carbon_dioxide_from_carbon.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    A@{ img: "https://raw.githubusercontent.com/StarT-Dev-Team/StarT-Wiki/af90eac1ff73607dea361c0d1996524e6699f735/docs/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_carbon_dioxide_from_carbon.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_formic_acid.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    B@{ img: "https://raw.githubusercontent.com/StarT-Dev-Team/StarT-Wiki/af90eac1ff73607dea361c0d1996524e6699f735/docs/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_formic_acid.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
-    C@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Acids/CH2O2_img/electrolyzer_decomposition_electrolyzing_formic_acid.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
+    C@{ img: "https://raw.githubusercontent.com/StarT-Dev-Team/StarT-Wiki/af90eac1ff73607dea361c0d1996524e6699f735/docs/Chemical-Lines/Acids/CH2O2_img/electrolyzer_decomposition_electrolyzing_formic_acid.png", label: "Chemical Reactor", pos: "t", w: 200, h: 200, constraint: "on" }
 
     D@{ shape: lean-r, label: "1b Water" }
 
