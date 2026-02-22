@@ -26,7 +26,7 @@ flowchart LR;
 
     F@{ shape: lean-r, label: "2b Hydrogen" }
 
-    A --1b Carbon Dioxide--> B --1b Formic Acid--> C --1 Carbon Dust, 2b Oxygen--> A;
+    A --1b Carbon Dioxide--> B --1b Formic Acid--> C;
 
     D --> B
     B --> E
