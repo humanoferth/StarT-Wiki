@@ -6,7 +6,7 @@ Formic acid is an acid available as early as <LV>**LV**</LV>. While it is not us
 
 Formic acid is made from carbon dioxide (from liquid air distillation) and water.
 
-![Formic recipe](docs/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_formic_acid.png)
+![Formic recipe](CH2O2_img/chemical_reactor_formic_acid.png)
 
 ## How to make the Formic Acid Loop
 
