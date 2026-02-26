@@ -1,63 +1,102 @@
+---
+title: Polyvinyl Chloride
+author: ME Item Storage Cell
+---
+
 # Polyvinyl Chloride (PVC)
+<small>**Guide By:** ME Item Storage Cell</small>
+
+A plastic that you can optionally make in <mv>MV</mv>, immediately as you make Polyethylene. You can avoid making it until <ev>EV</ev>.
 
 ## How to make PVC
 
-Step **1a**: Chemically React *Chlorine* and *Ethylene* to make Vinyl Chloride. **(LCR Cir 1)**
+### Vinyl Chloride
 
-![clee](PVC_img/large_chemical_reactor_vinyl_chloride_from_chlorine.png)
+!!! example ""
 
-Step **1b**: Chemically React *Oxygen*, [Hydrochloric Acid](/StarT-Wiki/Chemical-Lines/Acids/Hydrochloric-Acid/) and *Ethylene* to make Vinyl Chloride. **(LCR Cir 3)**
+    === "Chlorine"
+        ```mermaid
+        flowchart LR
+            %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-![ohcle](PVC_img/large_chemical_reactor_vinyl_chloride_from_hydrochloric.png)
+            A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVC_img/chemical_reactor_vinyl_chloride_from_chlorine.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-Step **2a**: Chemically React *Vinyl Chloride* and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 1)**
+            B@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVC_img/electrolyzer_decomposition_electrolyzing_hydrochloric_acid.png", label: "Electrolyser", pos: "t", w: 200, h: 200, constraint: "on" }
 
-***With Air***
+            C@{ shape: lean-r, label: "1/2b Chlorine" }
 
-![vca](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_air.png)
+            D@{ shape: lean-l, label: "1b Hydrochloric Acid" }
 
-***With Oxygen***
+            E@{ shape: lean-r, label: "1b Ethylene"}
 
-![vco](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_oxygen.png)
+            F@{ shape: lean-r, label: "1b Chlorine"}
 
-Step **2b**: Chemically React *Vinyl Chloride* , [Titanium Tetrachloride](/StarT-Wiki/Gameplay/Lines/Chemical Lines/Random Useful Chemicals/Titanium Tetrachloride) and *Air/Oxygen* to make Vinyl Chloride. **(LCR Cir 2)**
+            G@{ shape: lean-l, label: "1b Hydrogen"}
 
-***With Air***
+            H@{ shape: lean-l, label: "1b Vinyl Chloride"}
 
-![vctc](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_tetrachloride_air.png)
+            C --> A
+            E --> A
+            A --> D
+            A --> H
+            D --> B
+            B --1b Chlorine--> A
+            F --> A
+            B --> G
+        ```
 
-***With Oxygen***
+        This is the recommended way to make Vinyl Chloride. You don't have to electrolyse the hydrochloric acid, you can simply use it. Recycling Chlorine isn't important, you more often than not have a surplus of it. 
 
-![vco](PVC_img/large_chemical_reactor_polyvinyl_chloride_from_tetrachloride_oxygen.png)
+    === "Oxygen + Hydrochloric acid"
+        ```mermaid
+        flowchart LR
+            %%{init: { 'theme': 'neutral', 'themeVariables': { 'edgeLabelBackground': 'transparent', 'secondaryColor': 'transparent', 'tertiaryColor': 'transparent', 'labelBkgBackground' : 'transparent' }}}%%
 
-## Uses of PVC
+            A@{ img: "https://start-dev-team.github.io/StarT-Wiki/Chemical-Lines/Plastics/PVC_img/chemical_reactor_vinyl_chloride_from_hydrochloric.png", label: "Chemical Reactor (LV)", pos: "t", w: 200, h: 200, constraint: "on" }
 
-### Uses of PVC Foil
+            C@{ shape: lean-r, label: "1b Oxygen" }
 
-**Fluid solidify PVC into ingots and bend them to get PVC foil (Cir 10)**
+            D@{ shape: lean-r, label: "1b Hydrochloric Acid" }
 
-![pvcf](PVC_img/fluid_solidifier_solidify_polyvinyl_chloride_to_ingot.png)
+            E@{ shape: lean-r, label: "1b Ethylene"}
 
-![pvcif](PVC_img/bender_bend_polyvinyl_chloride_ingot_to_foil.png)
+            G@{ shape: lean-l, label: "1b Water"}
 
-**Used by itself to coat wires**
+            H@{ shape: lean-l, label: "1b Vinyl Chloride"}
 
-![pvcfcw](PVC_img/assembler_cover_steel_wire_gt_octal_rubber.png)
+            C --> A
+            E --> A
+            D --> A
+            A --> G
+            A --> H
+        ```
 
-**Used with other plastic foil to coat wire**
+        Would not recommend using this method. It's much more straightforward to just use Chlorine. This method takes more machines energy, and resources (needs Oxygen and HCl inputs.). In <zpm>ZPM</zpm>, you can use a similar recipe in the Chemical Plant. It takes more materials, and is pretty slow, but it skips on polymerisation.
 
-![pvcw](PVC_img/assembler_cover_naquadah_alloy_wire_gt_double_silicone.png)
-
-### Uses of PVC Plate
-
-![pvcp](PVC_img/fluid_solidifier_solidify_polyvinyl_chloride_to_plate.png)
-
-**Used to make Plastic Circuit Boards**
-
-![pcbv](PVC_img/chemical_reactor_plastic_board_pvc.png)
-
-**Used to make Hazmat Suits**
-
-![hzs](PVC_img/assembler_hazmat_leggings.png)
+        ![ChemPlant_PVC_TakeThatJoyal](PVC_img/chemical_skip_polyvinyl_chloride_skip.png)
 
 
+
+### Polymerisation
+
+!!! example ""
+
+    === "Air"
+
+        ![PVC_Air](PVC_img/chemical_reactor_polyvinyl_chloride_from_air_2.png)
+
+    === "Oxygen"
+
+        ![PVC_Oxygen](PVC_img/chemical_reactor_polyvinyl_chloride_from_oxygen_2.png)
+
+        ***Most efficient**
+
+## Uses for PVC
+
+You can optionally use PVC sheets to make plastics boards more efficiently.
+
+![PVC_PlasticBoards](PVC_img/chemical_reactor_plastic_board_pvc.png)
+
+However, you will need PVC in <ev>EV</ev>, to make aluminum cables for <ev>EV</ev> energy hatches. You will continue to use PVC from here on.
+
+![PVCFoil_CableCoating](PVC_img/assembler_cover_aluminium_wire_gt_single_silicone.png)
