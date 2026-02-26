@@ -1,14 +1,14 @@
 # Formic Acid
 
-Formic acid is an acid available as early as <LV>**LV**</LV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop, which takes in water and outputs hydrogen and oxygen.
+Formic acid is an acid available as early as <LV>**LV**</LV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop (availible in <MV>**MV**</MV>), which takes in water and outputs hydrogen and oxygen.
 
-## How to make Formic Acid
+## Making Formic Acid
 
-Formic acid is made from carbon dioxide (from liquid air distillation) and water.
+Formic acid is made from carbon dioxide and water.
 
 ![Formic recipe](docs/Chemical-Lines/Acids/CH2O2_img/chemical_reactor_formic_acid.png)
 
-## How to make the Formic Acid Loop
+## Formic Acid Loop
 
 ```mermaid
 flowchart LR;
