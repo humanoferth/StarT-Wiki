@@ -1,4 +1,9 @@
-# Formic Acid
+---
+title: Formic Acid
+author: ME Item Storage Cell
+---
+
+# Formic Acid (CH~2~O~2~)
 
 Formic acid is an acid available as early as <LV>**LV**</LV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop (availible in <MV>**MV**</MV>), which takes in water and outputs hydrogen and oxygen.
 
