@@ -1,6 +1,6 @@
 # Acetic Acid
 
-Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety of lines and recipes. Notably, it's used in the production of [Polyvynil Butyril](/StarT-Wiki/Chemical-Lines/Plastics/Polyvinyl-Butyril/) and later on the production of polyimide.
+Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety of lines and recipes. Notably, it's used in the production of [Polyvynil Butyral](/StarT-Wiki/Chemical-Lines/Plastics/Polyvinyl-Butyral/) and later on the production of polyimide.
 
 ## Making Acetic Acid with Distillation
 
