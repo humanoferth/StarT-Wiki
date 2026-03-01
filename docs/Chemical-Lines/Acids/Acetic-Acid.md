@@ -34,3 +34,5 @@ There are a couple more recipes for making acetic acid with chemical reactors, t
 
 - Reacting acetic anhydride and aminophenol.
 - Reacting methyl acetate, water, and sodium hydroxide (sodium hydroxide is not consumed, requires <MV>**MV**</MV>).
+
+<small><small>By: humanoferth</small></small>

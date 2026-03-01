@@ -15,6 +15,8 @@ Once the Large chemical reactor is unlocked, it can be made using the chemical s
 
 It can also be made in the large chemical reactor using ammonia and oxygen on circuit 24. While this recipe is faster due to the lower voltage requirement, ammonia is also more difficult to come by.
 
-![CLR2](large_chemical_reactor_nitric_acid_from_ammonia.png)
+![CLR2](HNO3_img/large_chemical_reactor_nitric_acid_from_ammonia.png)
 
 Lastly, it is also the byproduct of a couple late game recipes.
+
+<small><small>By: humanoferth</small></small>

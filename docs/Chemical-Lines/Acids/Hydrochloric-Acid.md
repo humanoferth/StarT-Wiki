@@ -12,6 +12,8 @@ This recipe is the best way to produce large amounts of hydrochloric acid, as hy
 
 It is also a byproduct of a variety of recipes, including tetrafluoroethylene, platline (namely iridium processing), among others.
 
-Hydrochloric acid also has a dilute form (dilute hydrochloric acid), which sometimes appears as a byproduct in certain reactions. This can be distilled back into hydrochloric acid and water in a distillery or distillation tower.
+Hydrochloric acid also has a dilute form (dilute hydrochloric acid), which sometimes appears as a byproduct in certain reactions. This can be distilled back into hydrochloric acid and water in a distillation tower or one of the two in a distillery.
 
 ![Dil DT](HCl_img/distillation_tower_distill_dilute_hcl.png)
+
+<small><small>By: humanoferth</small></small>
