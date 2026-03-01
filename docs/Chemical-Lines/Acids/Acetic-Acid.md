@@ -4,7 +4,7 @@ Acetic acid can be made as early on as <LV>**LV**</LV> and is used in a variety 
 
 ## Making Acetic Acid with Distillation
 
-Acetic acid is most directly obtained from distilling fermented biomass or wood vinegar in a minimum <MV>**HV**</MV> distillation tower.
+Acetic acid is most directly obtained from distilling fermented biomass or wood vinegar in a minimum <HV>**HV**</HV> distillation tower.
 
 ![Wood Vinegar to Acetic](C2H4O2_img/distillation_tower_distill_fermented_biomass.png) ![Fermented Biomass to Acetic](C2H4O2_img/distillation_tower_distill_wood_vinegar.png)
 
@@ -18,11 +18,11 @@ Acetic Acid can also be made in a large / regular chemical reactor by reacting i
 
 ![Acet from Elem](C2H4O2_img/chemical_reactor_acetic_acid_from_elements.png)
 
-It can also be made by reacting ethylene and oxygen on circuit 2, hydrogen and carbon monoxide on circuit 2 or methanol and carbon monoxide on any circuit.
+It can also be made by reacting ethylene and oxygen on circuit 2, hydrogen and carbon monoxide on circuit 2, or methanol and carbon monoxide on any circuit.
 
 ![Acet from Ethy](C2H4O2_img/large_chemical_reactor_acetic_acid_from_ethylene.png) ![Acet from Mon](C2H4O2_img/large_chemical_reactor_acetic_acid_from_monoxide.png) ![Acet from Meth](C2H4O2_img/large_chemical_reactor_acetic_acid_from_methanol.png)
 
-The latter recipes are faster, but do require that you have the reagents on hand.
+The latter recipes are faster, but do require that you have the reagents on hand or passived somewhere else.
 
 ## Late game / Alternate Sources
 
