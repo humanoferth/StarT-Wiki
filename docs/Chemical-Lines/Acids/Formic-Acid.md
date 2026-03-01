@@ -4,21 +4,13 @@ author: humanoferth
 ---
 
 # Formic Acid (CH~2~O~2~)
-<<<<<<< HEAD
 <small>**Guide by:** humanoferth</small>
 
 Formic acid is an acid available as early as <MV>**MV**</MV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop, which takes in water and outputs hydrogen and oxygen.
 
 ## Making Formic Acid
-=======
-<small>**Guide By:** humanoferth</small>
 
-Formic acid is an acid available as early as <LV>**LV**</LV>. While it is not used in any major recipes, it is notable for its use in the formic acid loop (availible in <MV>**MV**</MV>), which takes in water and outputs hydrogen and oxygen.
->>>>>>> 47f6d37e516d32eae766844c68f1f9dbbf93ebcf
-
-## Making Formic Acid
-
-Formic acid is made from carbon dioxide and water.
+Formic acid is made from carbon dioxide (from liquid air distillation) and water.
 
 ![Formic recipe](CH2O2_img/chemical_reactor_formic_acid.png)
 
@@ -44,16 +36,7 @@ flowchart TD;
     B --> E;
     C --> F;
 
-<<<<<<< HEAD
     A --1b Carbon Dioxide--> B --1b Formic Acid--> C --1 Carbon Dust, 2b Oxygen--> A;
 ```
 
 The Chemical Reactor can be substituted for the Large Chemical Reactor as well. This loop consumes much less power on top of being faster than electrolyzing water. Per two buckets of hydrogen and with all machines running at <MV>**MV**</MV>, the formic acid loop takes 8,960 EU over 5 seconds compared to 90,000 EU over 35 seconds.
-
-<small><small>By: humanoferth</small></small>
-=======
-    D --> B
-    B --> E
-    C --> F
-```
->>>>>>> 47f6d37e516d32eae766844c68f1f9dbbf93ebcf
