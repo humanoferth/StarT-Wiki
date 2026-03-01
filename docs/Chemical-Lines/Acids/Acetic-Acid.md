@@ -10,8 +10,6 @@ Acetic acid is most directly obtained from distilling fermented biomass or wood 
 
 It can also be obtained from an <MV>**MV**</MV> distillery also using fermented biomass or wood vinegar.
 
-![Dist Wood Vinegar to Acetic](C2H4O2_img/distillery_distill_fermented_biomass_to_acetic_acid.png) ![Dist Fermented Biomass to Acetic](C2H4O2_img/distillery_distill_wood_vinegar_to_acetic_acid.png)
-
 ## Making Acetic Acid with Chemical Reactors
 
 Acetic Acid can also be made in a large / regular chemical reactor by reacting its constituent elements (hydrogen, oxygen, and carbon) on circuit 4.
