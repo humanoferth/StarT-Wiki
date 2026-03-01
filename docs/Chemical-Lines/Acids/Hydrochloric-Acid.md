@@ -1,4 +1,10 @@
-# Hydrochloric Acid
+---
+title: Hydrochloric Acid
+author: humanoferth
+---
+
+# Hydrochloric Acid (HCl)
+<small>**Guide by:** humanoferth</small>
 
 Hydrochloric acid available as early as <LV>**LV**</LV>, and has a wide range of uses as key component in the production of iron III chloride and cupric chloride (etching fluid), aqua regia (used in plat line), and as a part of many other recipes.
 

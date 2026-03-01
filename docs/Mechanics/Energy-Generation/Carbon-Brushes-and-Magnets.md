@@ -22,12 +22,13 @@ There are five tiers of magnets that generator coils can use, and they are as fo
 | Fluxuated Magnetite | 8 |
 | Large Neodymium Magnet | 24 |
 
-The magnetic force represents how much stress each magnet adds per RPM on top of the base consumption of the generator coils, which itself is 24 times RPM. For example, a generator coil spinning at 128 RPM surrounded fully by layered magnetite (12 magnets, magnetic force of 4) that generator coil would consume 9216 SU.
+The magnetic force represents how much SU each magnet adds per RPM. For a generator coil spinning at 128 RPM, each magnetite block around it would consume 128 SU, each redstone magnet would consume 256 RPM, etc. The generator coil itself consumes 24 times the RPM its spinning at. For a generator coil spinning at 128 RPM with no magnets around it, it would consume 3,072 SU. A generator coil spinning at 128 RPM surrounded fully by 12 layered magnetite (each with a magnetic force of 4) would consume 9216 SU.
 
 ## Notes 
 
-- Carbon brushes can handle a maximum of eight coils that aren't being handled by another carbon brush. For example, if a generator is eight generator coils long and carbon brushes are placed at each end, only one of the carbon brushes will work while the other will not.
+- Carbon brushes can handle a maximum of eight coils that aren't being handled by another carbon brush. For example, if a generator is eight generator coils long and carbon brushes are placed at each end, only one of the carbon brushes will work while the other will not, if the generator is nine generator coils long and carbon brushes are placed at each end, one carbon brush will produce power from eight of the coils while the other will produce power from one coil.
 - Magnet can be wall shared. This means that generators can use the same set of magnets to save resources.
+- It's important to try your best to use the best magnet available to you since
 
 ## Example setups
 
